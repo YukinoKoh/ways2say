@@ -1,0 +1,132 @@
+/* @import url(https//weloveiconfonts.com/api/?family=fontelico);
+/*
+ * Base and Layout
+ */
+body {
+  margin: 0;
+  color: #191b1a;
+  padding: 0;
+  /* user double quotes */
+  font-family: "Open+Sans", "Universe", "Helvetica", sans-serif; }
+
+/* better to use class over IDs */
+.site {
+  margin: 0;
+  padding: 0; }
+
+.mt-3{
+  margin-top: 30px;}
+.mb-1 {
+  margin-bottom: 10px; }
+.mb-2 {
+  margin-bottom: 20px; }
+.ml-1 {
+  margin-left: 10px; }
+.mr-1 {
+  margin-right: 10px; }
+
+.pt-1{
+  padding-top: 10px;}
+.pt-3{
+  padding-top: 30px;}
+.pb-3{
+  padding-bottom: 30px;}
+
+.img-responsive {
+  margin: 0 auto;}
+.img-shadow{
+  box-shadow: 10px 10px 5px grey;}
+
+a:link,
+a:hover,
+a:visited {
+  color: #191b1a;
+  text-decoration: underline; }
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0; }
+
+/*
+ * Typography
+ */
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+  color: #ffffff;}
+h1 a:link,
+h1 a:visited {
+  color:#ffffff;
+  text-decoration:none;}
+h2{
+  margin-top:34px;
+  margin-bottom: 16px;
+  font-size: 28px;
+  font-weight: 300;
+  color: #1080ee;}
+
+h3 {
+  margin-top: 0px;
+  font-size: 22px;
+  font-weight: 300; 
+  color: #ededef;}
+h4 {
+  margin-top: 34px;
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 300;
+  color: #1080ee; }
+
+h5 {
+  color: #1080ee; }
+
+h5 a:link,
+h5 a:visited {
+  color: #1080ee; }
+
+.button-try{
+  position: relative;
+  border: none;
+  margin: 0 auto;
+  background: #1080ee;
+  border-radius: 17px;
+  padding: 8px 40px;
+  font-size: 28px;
+  color: #ffffff;
+  display: inline-block;
+  text-align: center;
+  text-shadow: none;
+}
+/*
+ * Section
+ */
+/* Header */
+header {
+  top: -5px;
+  margin-top: 0;
+  padding-top: 20px;
+  width: 100%;
+  height: 600px;
+  background-repeat: no-repeat; 
+  background-image: url("../img/background.jpg");
+  background-color: #fff;
+  z-index: 100;
+  -webkit-box-shadow: 0px 10px 14px -5px rgba(224, 224, 224, 0.35);
+  -moz-box-shadow: 0px 10px 14px -5px rgba(224, 224, 224, 0.35);
+  box-shadow: 0px 10px 14px -5px rgba(224, 224, 224, 0.35); }
+
+#header-common{
+  height: 200px;}
+}
+
+/* footer */
+footer {
+  color: #adadaf; }
+
+footer a:link,
+footer a:visited {
+  color: #adadaf;
+  text-decoration: none; }
+
+footer a:hover {
+  color: #191b1a; }
