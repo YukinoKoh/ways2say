@@ -1,12 +1,10 @@
 ![ways to see image](img/screen.jpg)
 
 # How can I make Facebook chatbot?
-This document will shares what I referred during this [facebook messenger chatbot](https://yukinokoh.github.io/ways2say/)  development for an intermediate level engineers.
-
-Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from facebook, which was helpful!
+This document will shares what I referred during this [facebook messenger chatbot](https://yukinokoh.github.io/ways2say/)  development for an intermediate level engineers. Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from facebook, which was helpful!
 
 ### 1. Write a Webhook
-Webhook is a javascript file to which we will write how the chatbot response to the users. Firstly at this step..  
+Webhook is a javascript file to which we will write how the chatbot response to the users. Firstly at this step... 
 - Write a webhook to test HTTP server functions with your local server: [Facebook Developer doc](https://developers.facebook.com/docs/messenger-platform/getting-started/webhook-setup)
 
 ### 2. Deploy the webhook to your favourite server
@@ -29,7 +27,7 @@ This step is to set app the chatbot app.
 Finally we can activate the app after providing the following information.
 - Data policy: which data to retrieve and for what? etc Need to be hosted in public URL
 - Terms of Service: what is this service offer? etc. Need to be hosted in public URL
-- The data retriever info: Legally required in EU and in this case we need to provid in the developer account page.
+- The data retriever info: Legal requirement defined in GDPR. Section to fill in the developer account page
 - Finally activate your app in the account page :)
 
 ### Optional: Train the dataset
