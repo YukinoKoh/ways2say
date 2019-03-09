@@ -22,11 +22,7 @@ This step is to set app the chatbot app.
 
 ### 4. Write chatbot logics to the webhook
 - [Facebook developer doc](https://developers.facebook.com/docs/messenger-platform/getting-started/quick-start)
-- To AVOID hardcoding the page access token, it is recommended the following.
-```javascript
-const PAGE_ACCESS_TOKEN = process.env.PAGE_ACCESS_TOKEN;
-```
-You can find about process.env  [here](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
+- About process.env in this [medium article](https://codeburst.io/process-env-what-it-is-and-why-when-how-to-use-it-effectively-505d0b2831e7)
 - [sample webhook](sample/sample-webhook.js)
 
 ### 5. Activate the app!
