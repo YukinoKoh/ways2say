@@ -1,7 +1,7 @@
 ![ways to see image](img/screen.jpg)
 
 # How can I make Facebook chatbot?
-This document will shares what I referred during this [facebook messenger chatbot](https://yukinokoh.github.io/ways2say/)  development for an intermediate level engineers. Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from facebook, which was helpful!
+This document will shares what I referred during this [facebook messenger chatbot](https://yukinokoh.github.io/ways2say/)  development for intermediate level engineers. Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from facebook, which was helpful!
 
 ### 1. Write a Webhook
 Webhook is a javascript file to which we will write how the chatbot response to the users. Firstly at this step... 
