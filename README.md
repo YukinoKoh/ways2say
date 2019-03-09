@@ -10,8 +10,7 @@ Webhook is a javascript file to which we will write how the chatbot responses to
 ### 2. Deploy the webhook to your favorite server
 This step is to define URL that hosts the webhook. I use Google Cloud Platform, particularly Cloud function.
 
-- Modify network requesting part in the webhook for the server: [GCP sample to handle multiple HTTP methods](https://cloud.google.com/functions/docs/writing/http)
-- Upload the file to the server: [GCP Cloud function deploy](https://cloud.google.com/functions/docs/tutorials/http)
+- Modify the webhook and upload it to the server: [GCP sample to handle multiple HTTP methods](https://cloud.google.com/functions/docs/writing/http)
 - Debug...: [GC function logs](https://cloud.google.com/functions/docs/monitoring/logging)
 
 ### 3. Setting up the app at Facebook developer account page
