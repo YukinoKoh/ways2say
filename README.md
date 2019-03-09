@@ -33,9 +33,9 @@ Finally we can activate the app after providing the following information.
 - Finally activate your app in the account page :)
 
 ### Optional: Train the dataset
-I found [wit.ai](https://wit.ai) is helpful to compose the logic, because
+I found [wit.ai](https://wit.ai) is helpful to compose the logic, because...
 - It has their pre-trained dataset 
-- It provide function to train the dataset with the retrieved user response after connecting with app in the developer account page 
+- It provides functions to train the dataset with the retrieved user response. 
 
 
 © [Yukino Kohmoto](http://yukinokoh.github.io/)
