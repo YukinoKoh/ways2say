@@ -1,7 +1,10 @@
 ![ways to see image](img/screen.jpg)
 
+# About this project
+This is a  [Facebook messenger chatbot](https://yukinokoh.github.io/ways2say/) to give feedback to what the user is about to say. The background of this idea is increasing diversity around. I notice sometimes people say something offensive to another without actually knowing it is not a nice way to say. This app is for such users to be aware and suggests alternative ways to say. 
+
 # How can I make Facebook chatbot?
-This document shares what I referred during this [Facebook messenger chatbot](https://yukinokoh.github.io/ways2say/)  development for intermediate level engineers. Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from Facebook, which was helpful!
+This document shares what I referred during this chatbot development for intermediate level engineers. Besides, here is [start guide](https://developers.facebook.com/docs/messenger-platform/getting-started) from Facebook, which was helpful!
 
 ### 1. Write a webhook
 Webhook is a javascript file to which we will write how the chatbot responses to the users. At this step... 
